@@ -29,8 +29,8 @@ router.post('/', function(req, res) {
         if (err) throw err;
         res.send({status:'success'});
     });
-    var html = `Dear Dr. ${newTodo.name.charAt(0).toUpperCase() + newTodo.name.slice(1)},<br><br>With best compliments from Pfizer.<br><br><img src=${newTodo.image}><br><br>Regards,<br><b>Team Prevenar13</b>`;
-    sendEmail(newTodo.email, 'Sweet memories at Pedicon 2017, Bangalore', html);
+    var html = `Dear ${newTodo.name.charAt(0).toUpperCase() + newTodo.name.slice(1)},<br><br>With best compliments from GSK.<br><br><img src=${newTodo.image}><br><br>Regards,<br><b>Team GSK</b>`;
+    sendEmail(newTodo.email, 'Sweet memories at GSK Excellence Awards 2016', html);
     /*// Send email
     var mailOptions = {
         from: 'sameergkoli@gmail.com', // sender address
