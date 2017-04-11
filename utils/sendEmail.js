@@ -32,7 +32,7 @@ var helper = require('sendgrid').mail;
 } else {*/
 	module.exports = function sendEmail(to, subject, message) {
 	    const mailOptions = {
-	        from: config.EMAIL.EMAIL_ADD, // sender address
+	        from: '"GSK Excellence Awards 2016" <' + config.EMAIL.EMAIL_ADD + '>', // sender address
 	        to: to, // list of receivers
 	        subject: subject, // Subject line
 	        //text: text //, // plaintext body
