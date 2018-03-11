@@ -1,0 +1,12 @@
+{
+	"MONGO_URI": "mongodb://camtest:camtest@ds159978.mlab.com:59978/camera-app",
+	"EMAIL": {
+		"EMAIL_ADD": "indiaprevenar@gmail.com",
+		"EMAIL_PWD": "prevenar@123"
+	},
+	"SENDGRID": {
+		"SENDGRID_USERNAME": "itkcbqes0645",
+		"SENDGRID_PASSWORD": "app62050490@heroku.com",
+		"SENDGRID_API_KEY": "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"
+	}
+}
